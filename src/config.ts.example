@@ -1,0 +1,7 @@
+const config = {
+    apiKey: "", // https://portal.speechmatics.com/api-keys
+};
+
+export type AppConfig = typeof config;
+
+export const appConfig: AppConfig = { ...config };
