@@ -1,3 +1,6 @@
+// DUPLICATE THIS FILE AND REMOVE THE .example AT THE END SO U END UP WITH A FILE LIKE THIS -> config.ts
+// COULD HAVE I USED DOT ENV? YES I COULD BUT I DID NOT
+
 const config = {
     apiKey: "", // https://portal.speechmatics.com/api-keys
 };
