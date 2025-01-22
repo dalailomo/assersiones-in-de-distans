@@ -16,6 +16,8 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 
 ## Project Setup
 
+Copy file `src/config.ts.example` to `src/config.ts` and register to speechmatics for an api key. https://portal.speechmatics.com/api-keys. Don't worry, its free.
+
 ```sh
 npm install
 ```
