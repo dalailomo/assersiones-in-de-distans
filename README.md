@@ -1,6 +1,14 @@
 # i-see-assertions-in-the-distance
 
-This template should help get you started developing with Vue 3 in Vite.
+## Speech-to-Text (STT) Testing
+
+This repository contains a basic Vue 3 application that demonstrates the integration of a speech-to-text (STT) workflow, complete with end-to-end (E2E) testing. The primary goal is to test the user journey of speaking through a microphone and receiving a transcription response, while accounting for inaccuracies in the STT system by leveraging Levenshtein distance for comparison.
+
+## Features:
+- Vue 3 Application: A lightweight and modular project structure for easy integration and testing.
+- Speech-to-Text Workflow: Implements microphone input functionality and displays the transcribed text from an STT service.
+- Levenshtein Distance Comparison: Ensures accurate testing by calculating the similarity between the expected and actual transcriptions, compensating for minor inaccuracies in the STT output.
+- E2E Testing with Playwright/Cypress: Automates the user journey of speaking through the mic and validates the STT response using dynamic assertions.
 
 ## Recommended IDE Setup
 
